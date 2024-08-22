@@ -101,6 +101,7 @@
             </executions>
             <configuration>
               <!-- ... -->
+              <mainClass>com.oashalal.compiler.App</mainClass>
             </configuration>
           </plugin>
         </plugins>
