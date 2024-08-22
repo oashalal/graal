@@ -22,7 +22,6 @@ jobs:
     steps:
 
     - uses: graalvm/setup-graalvm@v1
-    - name: setup
       with:
         java-version: '17'
         distribution: 'graalvm'
