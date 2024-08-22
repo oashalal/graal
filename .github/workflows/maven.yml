@@ -20,7 +20,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
+    - uses: actions/checkout@v3
+    - name: setup
     - uses: graalvm/setup-graalvm@v1
       with:
         java-version: '17'
